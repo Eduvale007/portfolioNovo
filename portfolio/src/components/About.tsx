@@ -4,27 +4,34 @@ const AboutBallon = () =>{
     return (
         <>
 
+<section className='parent'>
 <section className="nes-container is-dark">
   <section className="message-list">
-      <section className="message -left">
-        <i className="nes-bcrikko"></i>
-    
-        <div className="nes-balloon from-left is-dark">
-          <p>Olá, seja bem vindo</p>
+      <section className="message">
+        
+        <img src="me.jpeg" alt="" className='me'/>
+        <div className='Profile'>
+          <h1>Edu</h1>
+          <p>Dev Front-end</p>
         </div>
       </section>
 
-      <section className="message -right">
-   
-    
-        <div className="nes-balloon from-left is-dark">
-          <p>Olá me chamo Eduardo sou um entusiasta da Tecnologia da Informação e, ao longo da minha jornada, passei por diversas tecnologias, como Java, Git, MySQL, MongoDB, Python, CSS, HTML, entre outras. Posso afirmar que essa evolução foi incrível, pois pude aplicar meu aprendizado em diversos projetos práticos. Agora, estou explorando novas possibilidades, como o React que pretendo usar neste portólio.</p>
-        </div>
+      <section className='text'>
+        <h1>sobre</h1>
+      <p className="nes-balloon from-left nes-pointer">
+      Olá me chamo Eduardo sou um entusiasta da Tecnologia da Informação e, ao longo da minha jornada, passei por diversas tecnologias, como Java, Git, MySQL, MongoDB, Python, CSS, HTML, entre outras. Posso afirmar que essa evolução foi incrível, pois pude aplicar meu aprendizado em diversos projetos práticos. Agora, estou explorando novas possibilidades, como o React que pretendo usar neste portólio.
+</p>
       </section>
+
+
 
       
   </section>
 </section>
+
+
+
+      </section>
   
 
   

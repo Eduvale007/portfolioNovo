@@ -19,7 +19,7 @@ const AboutBallon = () =>{
       <section className='text'>
         <h1>sobre</h1>
       <p className="nes-balloon from-left nes-pointer">
-      Olá me chamo Eduardo sou um entusiasta da Tecnologia da Informação e, ao longo da minha jornada, passei por diversas tecnologias, como Java, Git, MySQL, MongoDB, Python, CSS, HTML, entre outras. Posso afirmar que essa evolução foi incrível, pois pude aplicar meu aprendizado em diversos projetos práticos. Agora, estou explorando novas possibilidades, como o React que pretendo usar neste portólio.
+      Olá me chamo Eduardo sou um entusiasta da Tecnologia da Informação e, ao longo da minha jornada, passei por diversas tecnologias, como Java, Git, MySQL, MongoDB, Python, CSS, HTML, entre outras. Posso afirmar que essa evolução foi incrível, pois pude aplicar meu aprendizado em diversos projetos práticos. Agora, estou explorando novas possibilidades, com o React que estou usando  neste portólio.
 </p>
       </section>
 

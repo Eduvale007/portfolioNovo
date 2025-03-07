@@ -21,7 +21,7 @@
 
 .text p{
   color: #000000;
-  width: 70%;
+  width: 100%;
 }
 
 .nes-balloon{
@@ -44,12 +44,13 @@
 }
 
 
+
 .main__cards{
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* Estilos principais para os cards */
@@ -132,15 +133,53 @@
   justify-content: space-between;
   gap: 10px;
   flex-wrap: wrap;
+  height: auto;
 }
-
-/* From Uiverse.io by Yaya12085 */ 
+/* Estilos principais para os cards de imagens */
 .card__projetos {
   max-width: 300px;
   border-radius: 0.5rem;
   background-color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   border: 1px solid transparent;
+  transition: box-shadow 0.4s ease-in-out, transform 0.3s ease-in-out;
+  transform: translateY(-4px);
+  opacity: 0; 
+  animation: slideUp 0.6s ease-out forwards; /* Animação aplicada aqui */
+}
+
+.card__projetos:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.card__projetos:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.card__projetos:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.card__projetos:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.card__projetos:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+/* A animação 'slideUp' já foi definida anteriormente */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+
+
+.card__projetos:hover {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .card__projetos a {
@@ -156,7 +195,7 @@
   padding: 1.1rem;
 }
 
-.card__projetos__image {
+.card__projetos__image img{
   object-fit: cover;
   width: 100%;
   height: 150px;

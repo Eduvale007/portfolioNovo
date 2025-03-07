@@ -11,7 +11,7 @@ const Projetos = () => {
 
                     <div className="card__projetos">
   <div className="card__projetos__image">
- 
+ <img src="/webFast.png" alt="" />
   </div>
   <div className="card__projetos__content">
     <h1 >
@@ -36,7 +36,9 @@ const Projetos = () => {
 
 
 <div className="card__projetos">
-  <div className="card__projetos__image"></div>
+  <div className="card__projetos__image">
+    <img src="/dente.png" alt="" />
+  </div>
   <div className="card__projetos__content">
     <h1>
       <span className="card__projetos__title">
@@ -60,7 +62,9 @@ const Projetos = () => {
 
 
 <div className="card__projetos">
-  <div className="card__projetos__image"></div>
+  <div className="card__projetos__image">
+    <img src="/aposentadoria.png" alt="" />
+  </div>
   <div className="card__projetos__content">
     <h1>
       <span className="card__projetos__title">

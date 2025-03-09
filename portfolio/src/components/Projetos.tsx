@@ -1,3 +1,7 @@
+import dente from '../assets/dente.png'; 
+import webFast from '../assets/webFast.png'; 
+import aposenta from '../assets/aposentadoria.png'; 
+
 const Projetos = () => {
     return(
         <div>
@@ -11,7 +15,7 @@ const Projetos = () => {
 
                     <div className="card__projetos">
   <div className="card__projetos__image">
- <img src="/webFast.png" alt="" />
+ <img src={webFast} alt="" />
   </div>
   <div className="card__projetos__content">
     <h1 >
@@ -37,7 +41,7 @@ const Projetos = () => {
 
 <div className="card__projetos">
   <div className="card__projetos__image">
-    <img src="/dente.png" alt="" />
+    <img src={dente} alt="" />
   </div>
   <div className="card__projetos__content">
     <h1>
@@ -63,7 +67,7 @@ const Projetos = () => {
 
 <div className="card__projetos">
   <div className="card__projetos__image">
-    <img src="/aposentadoria.png" alt="" />
+    <img src={aposenta} alt="" />
   </div>
   <div className="card__projetos__content">
     <h1>

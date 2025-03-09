@@ -1,4 +1,5 @@
 import 'nes.css/css/nes.min.css';
+import meImage from '../assets/me.jpeg'; 
 
 const AboutBallon = () =>{
     return (
@@ -9,7 +10,7 @@ const AboutBallon = () =>{
   <section className="message-list">
       <section className="message">
         
-        <img src="me.jpeg" alt="" className='me'/>
+        <img src={meImage} alt="" className='me'/>
         <div className='Profile'>
           <h1>Edu</h1>
           <p>Dev Front-end</p>
